@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<robot name = "pant" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <ros2_control name="passive_joints" type="system">
+        <hardware>
+            <plugin>mock_components/GenericSystem</plugin>
+        </hardware>
+
+        <joint name="joint3">
+            <command_interface name="position"/>
+            <state_interface name="position">
+                <param name="initial_value">-1.8672</param>
+                <param name="min">-3.14</param>
+                <param name="max">3.14</param>
+            </state_interface>
+        </joint>
+        <joint name="joint4">
+            <command_interface name="position"/>
+            <state_interface name="position">
+                <param name="initial_value">1.8672</param>
+                <param name="min">-3.14</param>
+                <param name="max">3.14</param>
+            </state_interface>
+        </joint>
+    </ros2_control>
+
+    <ros2_control name="ECdriver" type="system">
+        <hardware>
+            <plugin>ethercat_driver/EthercatDriver</plugin>
+                <param name="master_id">0</param>
+                <param name="control_frequency">100</param>
+        </hardware>
+
+        <joint name="joint1">
+            <command_interface name="effort.1" />
+                <param name="max">0</param>
+                <param name="min">-5.0</param>
+            <command_interface name="reset" />
+            <command_interface name="position">
+                <param name="initial_value">2.5656</param>
+                <param name="min">-3.14</param>
+                <param name="max">3.14</param>
+            </command_interface>
+            <command_interface name="enable"/>
+            <state_interface name="position">
+            </state_interface>
+            <ec_module name="EL5101.2">
+                <plugin>ethercat_generic_plugins/GenericEcSlave</plugin>
+                <param name="alias">0</param>
+                <param name="position">2</param>
+                <param name="slave_config">$(find pant_description)/config/bhf_el5101.yaml</param>
+            </ec_module>
+            <ec_module name="EL4134">
+                <plugin>ethercat_generic_plugins/GenericEcSlave</plugin>
+                <param name="alias">0</param>
+                <param name="position">3</param>
+                <param name="slave_config">$(find pant_description)/config/bhf_el4134.yaml</param>
+            </ec_module>
+        </joint>
+
+        <joint name="joint2">
+            <command_interface name="effort.2"/>
+                <param name="max">0</param>
+                <param name="min">-5.0</param>
+            <command_interface name="position">
+                <param name="initial_value">0.576</param>
+                <param name="min">-3.14</param>
+                <param name="max">3.14</param>
+            </command_interface>
+            <command_interface name="reset" />
+            <command_interface name="enable"/>
+
+            <state_interface name="position">
+            </state_interface>
+            <ec_module name="EL5101.1">
+                <plugin>ethercat_generic_plugins/GenericEcSlave</plugin>
+                <param name="alias">0</param>
+                <param name="position">1</param>
+                <param name="slave_config">$(find pant_description)/config/bhf_el5101.yaml</param>
+            </ec_module>
+            <ec_module name="EL4134">
+                <plugin>ethercat_generic_plugins/GenericEcSlave</plugin>
+                <param name="alias">0</param>
+                <param name="position">3</param>
+                <param name="slave_config">$(find pant_description)/config/bhf_el4134.yaml</param>
+            </ec_module>
+        </joint>
+
+    </ros2_control> 
+
+</robot>

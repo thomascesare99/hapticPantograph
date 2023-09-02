@@ -1,0 +1,67 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found hardware_interface: 2.28.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ethercat_interface: 1.2.0 (/home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ethercat_interface/cmake)
+-- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/telecom/ros2_pant_ec_ws/build/ethercat_driver
+[ 50%] [32mBuilding CXX object CMakeFiles/ethercat_driver.dir/src/ethercat_driver.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libethercat_driver.so[0m
+[100%] Built target ethercat_driver
+-- Install configuration: ""
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ethercat_driver/ethercat_driver_plugin.xml
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/lib/libethercat_driver.so
+-- Set runtime path of "/home/telecom/ros2_pant_ec_ws/install/ethercat_driver/lib/libethercat_driver.so" to ""
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/include
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/include/ethercat_driver
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/include/ethercat_driver/ethercat_driver.hpp
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/include/ethercat_driver/visibility_control.h
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ethercat_driver/environment/library_path.sh
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ethercat_driver/environment/library_path.dsv
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ament_index/resource_index/package_run_dependencies/ethercat_driver
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ament_index/resource_index/parent_prefix_path/ethercat_driver
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ethercat_driver/environment/ament_prefix_path.sh
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ethercat_driver/environment/ament_prefix_path.dsv
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ethercat_driver/environment/path.sh
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ethercat_driver/environment/path.dsv
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ethercat_driver/local_setup.bash
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ethercat_driver/local_setup.sh
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ethercat_driver/local_setup.zsh
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ethercat_driver/local_setup.dsv
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ethercat_driver/package.dsv
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ament_index/resource_index/packages/ethercat_driver
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ethercat_driver
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ethercat_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ethercat_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ethercat_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ethercat_driver/cmake/ethercat_driverConfig.cmake
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ethercat_driver/cmake/ethercat_driverConfig-version.cmake
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver/share/ethercat_driver/package.xml

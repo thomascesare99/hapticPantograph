@@ -1,0 +1,8 @@
+srv/GetSdo.idl
+srv/GetSdo.srv
+srv/GetSdo_Request.msg
+srv/GetSdo_Response.msg
+srv/SetSdo.idl
+srv/SetSdo.srv
+srv/SetSdo_Request.msg
+srv/SetSdo_Response.msg

@@ -1,0 +1,70 @@
+[0.015s] Invoking command in '/home/telecom/ros2_pant_ec_ws/build/pant_position_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telecom/ros2_pant_ec_ws/build/pant_position_controller -- -j20 -l20
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target pant_position_controller[0m
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/pant_position_controller.dir/src/pant_position_controller.cpp.o[0m
+[1.398s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.399s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.399s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.399s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.399s]                  from [01m[K/opt/ros/humble/include/controller_interface/controller_interface_base.hpp:28[m[K,
+[1.399s]                  from [01m[K/opt/ros/humble/include/controller_interface/controller_interface.hpp:22[m[K,
+[1.399s]                  from [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/include/pant_position_controller/pant_position_controller.hpp:25[m[K,
+[1.399s]                  from [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:15[m[K:
+[1.399s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:[m[K In member function ‘[01m[Kvirtual pant_position_controller::CallbackReturn pant_position_controller::PantPositionController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[1.399s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:170:33:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.399s]   170 |       get_node()->get_logger(), [01;35m[K"Interface: %p"[m[K, [32m[Kcommand_interfaces_[i].get_name()[m[K);
+[1.399s]       |                                 [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.399s]       |                                                                                 [32m[K|[m[K
+[1.399s]       |                                                                                 [32m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K
+[1.399s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:170:46:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.400s]   170 |       get_node()->get_logger(), "Interface: [01;36m[K%p[m[K", command_interfaces_[i].get_name());
+[1.400s]       |                                             [01;36m[K~^[m[K
+[1.400s]       |                                              [01;36m[K|[m[K
+[1.400s]       |                                              [01;36m[Kvoid*[m[K
+[1.400s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type pant_position_controller::PantPositionController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[1.400s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:231:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq1_prev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.400s]   231 |   double [01;35m[Kq1_prev[m[K = q1;
+[1.400s]       |          [01;35m[K^~~~~~~[m[K
+[1.400s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:232:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq2_prev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.400s]   232 |   double [01;35m[Kq2_prev[m[K = q2;
+[1.400s]       |          [01;35m[K^~~~~~~[m[K
+[4.886s] [100%] [32m[1mLinking CXX shared library libpant_position_controller.so[0m
+[5.192s] [100%] Built target pant_position_controller
+[5.203s] Invoked command in '/home/telecom/ros2_pant_ec_ws/build/pant_position_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telecom/ros2_pant_ec_ws/build/pant_position_controller -- -j20 -l20
+[5.219s] Invoking command in '/home/telecom/ros2_pant_ec_ws/build/pant_position_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telecom/ros2_pant_ec_ws/build/pant_position_controller
+[5.224s] -- Install configuration: ""
+[5.224s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/pant_position_controller/controller_plugin.xml
+[5.224s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/include
+[5.224s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/include/pant_position_controller
+[5.224s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/include/pant_position_controller/pant_position_controller.hpp
+[5.224s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/include/pant_position_controller/visibility_control.h
+[5.224s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/lib/libpant_position_controller.so
+[5.229s] -- Set runtime path of "/home/telecom/ros2_pant_ec_ws/install/pant_position_controller/lib/libpant_position_controller.so" to ""
+[5.229s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/pant_position_controller/environment/library_path.sh
+[5.229s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/pant_position_controller/environment/library_path.dsv
+[5.229s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/ament_index/resource_index/package_run_dependencies/pant_position_controller
+[5.229s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/ament_index/resource_index/parent_prefix_path/pant_position_controller
+[5.229s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/pant_position_controller/environment/ament_prefix_path.sh
+[5.229s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/pant_position_controller/environment/ament_prefix_path.dsv
+[5.229s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/pant_position_controller/environment/path.sh
+[5.230s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/pant_position_controller/environment/path.dsv
+[5.230s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/pant_position_controller/local_setup.bash
+[5.230s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/pant_position_controller/local_setup.sh
+[5.230s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/pant_position_controller/local_setup.zsh
+[5.230s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/pant_position_controller/local_setup.dsv
+[5.230s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/pant_position_controller/package.dsv
+[5.230s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/ament_index/resource_index/packages/pant_position_controller
+[5.230s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/pant_position_controller
+[5.230s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/pant_position_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.230s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/pant_position_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.230s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/pant_position_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[5.230s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/pant_position_controller/cmake/pant_position_controllerConfig.cmake
+[5.230s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/pant_position_controller/cmake/pant_position_controllerConfig-version.cmake
+[5.230s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_position_controller/share/pant_position_controller/package.xml
+[5.231s] Invoked command in '/home/telecom/ros2_pant_ec_ws/build/pant_position_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telecom/ros2_pant_ec_ws/build/pant_position_controller

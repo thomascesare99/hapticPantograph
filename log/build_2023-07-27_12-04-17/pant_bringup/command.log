@@ -1,0 +1,4 @@
+Invoking command in '/home/telecom/ros2_pant_ec_ws/build/pant_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telecom/ros2_pant_ec_ws/build/pant_bringup -- -j20 -l20
+Invoked command in '/home/telecom/ros2_pant_ec_ws/build/pant_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telecom/ros2_pant_ec_ws/build/pant_bringup -- -j20 -l20
+Invoking command in '/home/telecom/ros2_pant_ec_ws/build/pant_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telecom/ros2_pant_ec_ws/build/pant_bringup
+Invoked command in '/home/telecom/ros2_pant_ec_ws/build/pant_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telecom/ros2_pant_ec_ws/build/pant_bringup

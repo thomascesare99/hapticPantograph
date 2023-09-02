@@ -1,0 +1,4 @@
+source;share/pant_position_controller/local_setup.bash
+source;share/pant_position_controller/local_setup.dsv
+source;share/pant_position_controller/local_setup.sh
+source;share/pant_position_controller/local_setup.zsh

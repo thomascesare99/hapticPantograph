@@ -1,0 +1,51 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/telecom/ros2_pant_ec_ws/build/pant_description
+-- Install configuration: ""
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/urdf
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/urdf/pant.urdf
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/ros2_control
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/ros2_control/pant.ros2_control.urdf
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/config
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/config/bhf_el4134.yaml
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/config/scara.config.xacro
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/config/bhf_el5101.yaml
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/config/materials.urdf
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/config/scara_controllers.yaml
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/rviz
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/rviz/scara.rviz
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/gazebo
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/gazebo/scara.gazebo.xacro
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/ament_index/resource_index/package_run_dependencies/pant_description
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/ament_index/resource_index/parent_prefix_path/pant_description
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/environment/ament_prefix_path.sh
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/environment/ament_prefix_path.dsv
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/environment/path.sh
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/environment/path.dsv
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/local_setup.bash
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/local_setup.sh
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/local_setup.zsh
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/local_setup.dsv
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/package.dsv
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/ament_index/resource_index/packages/pant_description
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/cmake/pant_descriptionConfig.cmake
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/cmake/pant_descriptionConfig-version.cmake
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_description/share/pant_description/package.xml

@@ -1,0 +1,11 @@
+source;share/ethercat_generic_slave/hook/cmake_prefix_path.ps1
+source;share/ethercat_generic_slave/hook/cmake_prefix_path.dsv
+source;share/ethercat_generic_slave/hook/cmake_prefix_path.sh
+source;share/ethercat_generic_slave/hook/ld_library_path_lib.ps1
+source;share/ethercat_generic_slave/hook/ld_library_path_lib.dsv
+source;share/ethercat_generic_slave/hook/ld_library_path_lib.sh
+source;share/ethercat_generic_slave/local_setup.bash
+source;share/ethercat_generic_slave/local_setup.dsv
+source;share/ethercat_generic_slave/local_setup.ps1
+source;share/ethercat_generic_slave/local_setup.sh
+source;share/ethercat_generic_slave/local_setup.zsh

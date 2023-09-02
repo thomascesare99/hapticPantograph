@@ -1,0 +1,9 @@
+<library path="pant_position_controller">
+  <class name="pant_position_controller/PantPositionController"
+        type="pant_position_controller::PantPositionController" 
+        base_class_type="controller_interface::ControllerInterface">
+  <description>
+    The pant_position_controller commands the joint velocity of the scara robot through the joint position interface.
+  </description>
+  </class>
+</library>

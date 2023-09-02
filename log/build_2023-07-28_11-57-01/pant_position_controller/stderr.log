@@ -1,0 +1,53 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/controller_interface/controller_interface_base.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/controller_interface/controller_interface.hpp:22[m[K,
+                 from [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/include/pant_position_controller/pant_position_controller.hpp:25[m[K,
+                 from [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:15[m[K:
+[01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:[m[K In member function ‘[01m[Kvirtual pant_position_controller::CallbackReturn pant_position_controller::PantPositionController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:169:33:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  169 |       get_node()->get_logger(), [01;35m[K"Interface: %p"[m[K, [32m[Kcommand_interfaces_[i].get_name()[m[K);
+      |                                 [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                 [32m[K|[m[K
+      |                                                                                 [32m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K
+[01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:169:46:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  169 |       get_node()->get_logger(), "Interface: [01;36m[K%p[m[K", command_interfaces_[i].get_name());
+      |                                             [01;36m[K~^[m[K
+      |                                              [01;36m[K|[m[K
+      |                                              [01;36m[Kvoid*[m[K
+[01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type pant_position_controller::PantPositionController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:277:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kl24_des[m[K’ was not declared in this scope; did you mean ‘[01m[KP4_des[m[K’?
+  277 |   double gamma_des = std::acos( (pow([01;31m[Kl24_des[m[K, 2) + pow(a2, 2) - pow(a3, 2)) / (2*a2*l24_des) );
+      |                                      [01;31m[K^~~~~~~[m[K
+      |                                      [32m[KP4_des[m[K
+[01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:280:3:[m[K [01;31m[Kerror: [m[K‘[01m[KP3_des[m[K’ was not declared in this scope; did you mean ‘[01m[KP4_des[m[K’?
+  280 |   [01;31m[KP3_des[m[K = P2_des + std::polar(a2,th2_des);
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[KP4_des[m[K
+[01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:227:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdesired_angles[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  227 |   auto [01;35m[Kdesired_angles[m[K = rt_desired_angles_ptr_.readFromRT();
+      |        [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:229:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq1_prev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  229 |   double [01;35m[Kq1_prev[m[K = q1;
+      |          [01;35m[K^~~~~~~[m[K
+[01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:230:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq2_prev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  230 |   double [01;35m[Kq2_prev[m[K = q2;
+      |          [01;35m[K^~~~~~~[m[K
+[01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:274:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kl24[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  274 |   double [01;35m[Kl24[m[K = std::abs(P4_des-P2_des);
+      |          [01;35m[K^~~[m[K
+[01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:203:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  203 |   [01;35m[Kconst rclcpp::Duration & period[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pant_position_controller.dir/build.make:76: CMakeFiles/pant_position_controller.dir/src/pant_position_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pant_position_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

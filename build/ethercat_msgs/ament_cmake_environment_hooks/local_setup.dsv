@@ -1,0 +1,4 @@
+source;share/ethercat_msgs/environment/ament_prefix_path.sh
+source;share/ethercat_msgs/environment/library_path.sh
+source;share/ethercat_msgs/environment/path.sh
+source;share/ethercat_msgs/environment/pythonpath.sh

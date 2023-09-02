@@ -1,0 +1,21 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/telecom/ros2_pant_ec_ws/build/ethercat_driver_ros2
+-- Install configuration: ""
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver_ros2/share/ament_index/resource_index/package_run_dependencies/ethercat_driver_ros2
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver_ros2/share/ament_index/resource_index/parent_prefix_path/ethercat_driver_ros2
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver_ros2/share/ethercat_driver_ros2/environment/ament_prefix_path.sh
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver_ros2/share/ethercat_driver_ros2/environment/ament_prefix_path.dsv
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver_ros2/share/ethercat_driver_ros2/environment/path.sh
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver_ros2/share/ethercat_driver_ros2/environment/path.dsv
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver_ros2/share/ethercat_driver_ros2/local_setup.bash
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver_ros2/share/ethercat_driver_ros2/local_setup.sh
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver_ros2/share/ethercat_driver_ros2/local_setup.zsh
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver_ros2/share/ethercat_driver_ros2/local_setup.dsv
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver_ros2/share/ethercat_driver_ros2/package.dsv
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver_ros2/share/ament_index/resource_index/packages/ethercat_driver_ros2
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver_ros2/share/ethercat_driver_ros2/cmake/ethercat_driver_ros2Config.cmake
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver_ros2/share/ethercat_driver_ros2/cmake/ethercat_driver_ros2Config-version.cmake
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_driver_ros2/share/ethercat_driver_ros2/package.xml

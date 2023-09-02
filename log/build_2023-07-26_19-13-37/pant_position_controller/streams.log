@@ -1,0 +1,88 @@
+[0.020s] Invoking command in '/home/telecom/ros2_pant_ec_ws/build/pant_position_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telecom/ros2_pant_ec_ws/build/pant_position_controller -- -j20 -l20
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target pant_position_controller[0m
+[0.059s] [ 50%] [32mBuilding CXX object CMakeFiles/pant_position_controller.dir/src/pant_position_controller.cpp.o[0m
+[1.364s] In file included from [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:15[m[K:
+[1.364s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/include/pant_position_controller/pant_position_controller.hpp:90:27:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+[1.364s]    90 |   std::complex<double> P1([01;31m[K0[m[K, 0);
+[1.364s]       |                           [01;31m[K^[m[K
+[1.364s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/include/pant_position_controller/pant_position_controller.hpp:90:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[1.364s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/include/pant_position_controller/pant_position_controller.hpp:91:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ka5[m[K’ is not a type
+[1.364s]    91 |   std::complex<double> P5([01;31m[Ka5[m[K, 0);
+[1.364s]       |                           [01;31m[K^~[m[K
+[1.364s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/include/pant_position_controller/pant_position_controller.hpp:91:31:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+[1.364s]    91 |   std::complex<double> P5(a5, [01;31m[K0[m[K);
+[1.364s]       |                               [01;31m[K^[m[K
+[1.364s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/include/pant_position_controller/pant_position_controller.hpp:91:31:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[1.364s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/include/pant_position_controller/pant_position_controller.hpp:92:26:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+[1.364s]    92 |   std::complex<double> C([01;31m[K42.5[m[K, 160.56);
+[1.364s]       |                          [01;31m[K^~~~[m[K
+[1.364s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/include/pant_position_controller/pant_position_controller.hpp:92:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[1.373s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.373s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.373s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.373s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.373s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.373s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.374s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.374s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.374s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.374s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.374s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.374s]                  from [01m[K/opt/ros/humble/include/controller_interface/controller_interface_base.hpp:28[m[K,
+[1.374s]                  from [01m[K/opt/ros/humble/include/controller_interface/controller_interface.hpp:22[m[K,
+[1.374s]                  from [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/include/pant_position_controller/pant_position_controller.hpp:25[m[K,
+[1.374s]                  from [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:15[m[K:
+[1.374s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:[m[K In member function ‘[01m[Kvirtual pant_position_controller::CallbackReturn pant_position_controller::PantPositionController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[1.374s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:165:33:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.374s]   165 |       get_node()->get_logger(), [01;35m[K"Interface: %p"[m[K, [32m[Kcommand_interfaces_[i].get_name()[m[K);
+[1.374s]       |                                 [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.374s]       |                                                                                 [32m[K|[m[K
+[1.374s]       |                                                                                 [32m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K
+[1.374s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:165:46:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.374s]   165 |       get_node()->get_logger(), "Interface: [01;36m[K%p[m[K", command_interfaces_[i].get_name());
+[1.374s]       |                                             [01;36m[K~^[m[K
+[1.374s]       |                                              [01;36m[K|[m[K
+[1.374s]       |                                              [01;36m[Kvoid*[m[K
+[1.374s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type pant_position_controller::PantPositionController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[1.374s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:250:11:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kstd::complex<double> pant_position_controller::PantPositionController::P1(int)[m[K’
+[1.375s]   250 |   P2 = [01;31m[KP1 + std::polar(a1, q1)[m[K;
+[1.375s]       |        [01;31m[K~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[1.375s] In file included from [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:15[m[K:
+[1.375s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/include/pant_position_controller/pant_position_controller.hpp:90:24:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.375s]    90 |   std::complex<double> [01;36m[KP1[m[K(0, 0);
+[1.375s]       |                        [01;36m[K^~[m[K
+[1.375s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:251:11:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kstd::complex<double> pant_position_controller::PantPositionController::P5(int, int)[m[K’
+[1.375s]   251 |   P4 = [01;31m[KP5 + std::polar(a4, q2)[m[K;
+[1.375s]       |        [01;31m[K~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[1.375s] In file included from [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:15[m[K:
+[1.375s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/include/pant_position_controller/pant_position_controller.hpp:91:24:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.375s]    91 |   std::complex<double> [01;36m[KP5[m[K(a5, 0);
+[1.375s]       |                        [01;36m[K^~[m[K
+[1.375s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:265:26:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kstd::complex<double> pant_position_controller::PantPositionController::C(int)[m[K’
+[1.375s]   265 |   double r = std::norm([01;31m[KP3-C[m[K)
+[1.375s]       |                        [01;31m[K~~^~[m[K
+[1.375s] In file included from [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:15[m[K:
+[1.375s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/include/pant_position_controller/pant_position_controller.hpp:92:24:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.375s]    92 |   std::complex<double> [01;36m[KC[m[K(42.5, 160.56);
+[1.375s]       |                        [01;36m[K^[m[K
+[1.375s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:267:26:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kstd::complex<double> pant_position_controller::PantPositionController::C(int)[m[K’
+[1.375s]   267 |   theta = std::atan2( ([01;31m[KP3-C[m[K).imag()/r, (P3-C).real()/r)
+[1.375s]       |                        [01;31m[K~~^~[m[K
+[1.375s] In file included from [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:15[m[K:
+[1.375s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/include/pant_position_controller/pant_position_controller.hpp:92:24:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.375s]    92 |   std::complex<double> [01;36m[KC[m[K(42.5, 160.56);
+[1.375s]       |                        [01;36m[K^[m[K
+[1.375s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:267:43:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kstd::complex<double> pant_position_controller::PantPositionController::C(int)[m[K’
+[1.375s]   267 |   theta = std::atan2( (P3-C).imag()/r, ([01;31m[KP3-C[m[K).real()/r)
+[1.375s]       |                                         [01;31m[K~~^~[m[K
+[1.375s] In file included from [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:15[m[K:
+[1.375s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/include/pant_position_controller/pant_position_controller.hpp:92:24:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.375s]    92 |   std::complex<double> [01;36m[KC[m[K(42.5, 160.56);
+[1.375s]       |                        [01;36m[K^[m[K
+[1.375s] [01m[K/home/telecom/ros2_pant_ec_ws/src/pant_controllers/pant_position_controller/src/pant_position_controller.cpp:199:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.375s]   199 |   [01;35m[Kconst rclcpp::Duration & period[m[K)
+[1.375s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.692s] gmake[2]: *** [CMakeFiles/pant_position_controller.dir/build.make:76: CMakeFiles/pant_position_controller.dir/src/pant_position_controller.cpp.o] Error 1
+[2.692s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pant_position_controller.dir/all] Error 2
+[2.693s] gmake: *** [Makefile:146: all] Error 2
+[2.695s] Invoked command in '/home/telecom/ros2_pant_ec_ws/build/pant_position_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telecom/ros2_pant_ec_ws/build/pant_position_controller -- -j20 -l20

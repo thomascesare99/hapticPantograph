@@ -1,0 +1,26 @@
+[0.016s] Invoking command in '/home/telecom/ros2_pant_ec_ws/build/pant_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telecom/ros2_pant_ec_ws/build/pant_nodes -- -j20 -l20
+[0.050s] [ 50%] Built target image_sub
+[0.050s] [100%] Built target image_pub
+[0.061s] Invoked command in '/home/telecom/ros2_pant_ec_ws/build/pant_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telecom/ros2_pant_ec_ws/build/pant_nodes -- -j20 -l20
+[0.088s] Invoking command in '/home/telecom/ros2_pant_ec_ws/build/pant_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telecom/ros2_pant_ec_ws/build/pant_nodes
+[0.094s] -- Install configuration: ""
+[0.094s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_nodes/lib/pant_nodes/image_pub
+[0.094s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_nodes/lib/pant_nodes/image_sub
+[0.094s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_nodes/lib/pant_nodes/gui.py
+[0.094s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_nodes/lib/pant_nodes/needleTracking.py
+[0.094s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_nodes/share/ament_index/resource_index/package_run_dependencies/pant_nodes
+[0.094s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_nodes/share/ament_index/resource_index/parent_prefix_path/pant_nodes
+[0.094s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_nodes/share/pant_nodes/environment/ament_prefix_path.sh
+[0.094s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_nodes/share/pant_nodes/environment/ament_prefix_path.dsv
+[0.094s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_nodes/share/pant_nodes/environment/path.sh
+[0.094s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_nodes/share/pant_nodes/environment/path.dsv
+[0.094s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_nodes/share/pant_nodes/local_setup.bash
+[0.094s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_nodes/share/pant_nodes/local_setup.sh
+[0.094s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_nodes/share/pant_nodes/local_setup.zsh
+[0.094s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_nodes/share/pant_nodes/local_setup.dsv
+[0.094s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/pant_nodes/share/pant_nodes/package.dsv
+[0.094s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_nodes/share/ament_index/resource_index/packages/pant_nodes
+[0.095s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_nodes/share/pant_nodes/cmake/pant_nodesConfig.cmake
+[0.095s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_nodes/share/pant_nodes/cmake/pant_nodesConfig-version.cmake
+[0.095s] -- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/pant_nodes/share/pant_nodes/package.xml
+[0.106s] Invoked command in '/home/telecom/ros2_pant_ec_ws/build/pant_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telecom/ros2_pant_ec_ws/build/pant_nodes

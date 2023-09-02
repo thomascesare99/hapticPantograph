@@ -1,0 +1,11 @@
+source;share/ethercat_beckhoff_modules/hook/cmake_prefix_path.ps1
+source;share/ethercat_beckhoff_modules/hook/cmake_prefix_path.dsv
+source;share/ethercat_beckhoff_modules/hook/cmake_prefix_path.sh
+source;share/ethercat_beckhoff_modules/hook/ld_library_path_lib.ps1
+source;share/ethercat_beckhoff_modules/hook/ld_library_path_lib.dsv
+source;share/ethercat_beckhoff_modules/hook/ld_library_path_lib.sh
+source;share/ethercat_beckhoff_modules/local_setup.bash
+source;share/ethercat_beckhoff_modules/local_setup.dsv
+source;share/ethercat_beckhoff_modules/local_setup.ps1
+source;share/ethercat_beckhoff_modules/local_setup.sh
+source;share/ethercat_beckhoff_modules/local_setup.zsh

@@ -1,0 +1,282 @@
+<?xml version = "1.0"?>
+<robot name = "pant" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Used for fixing robot to 'base_link' -->
+  <link name="world"/>
+
+  <!-- Base Link -->
+  <link name = "base_link">
+    <visual>
+      <geometry>
+        <box size = "0.85 0.12 0.05"/>
+      </geometry>
+      <material name = "red"/>
+      <origin xyz = "0 0 0.025"/>
+    </visual>
+    <inertial>
+      <mass value="1" />
+      <origin xyz="0 0 0.025" rpy="0 0 0" />
+      <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
+    </inertial>
+    <collision>
+      <geometry>
+        <box size = "0.85 0.12 0.05"/>
+      </geometry>
+      <material name = "blue"/>
+      <origin xyz = "0 0 0.025"/>
+    </collision>
+  </link>
+
+  <joint name="base2world" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+  </joint>
+
+  <!-- revolute1 -->
+  <link name = "revolute1">
+    <visual>
+      <geometry>
+        <cylinder length = "0.1" radius = "0.05"/>
+      </geometry>
+      <material name = "green"/>
+      <origin xyz = "0 0 0.05"/>
+    </visual>
+    <inertial>
+      <mass value="0.5" />
+      <origin xyz="0 0 0.05" rpy="0 0 0" />
+      <inertia ixx="0.5" ixy="0" ixz="0" iyy="0.5" iyz="0" izz="0.5" />
+    </inertial>
+    <collision>
+      <geometry>
+        <cylinder length = "0.1" radius = "0.05"/>
+      </geometry>
+      <material name = "green"/>
+      <origin xyz = "0 0 0.225"/>
+    </collision>
+  </link>
+
+  <joint name = "joint1" type="revolute">
+    <parent link = "base_link"/>
+    <child link = "revolute1"/>
+    <origin xyz = "-0.425 0 0.05" rpy = "0 0 2.5656"/>
+    <limit effort="1000.0" lower="-3.14" upper="3.14" velocity="0.5"/>
+    <axis xyz = "0 0 1"/>
+    <dynamics damping="0.2" friction="0.1" />
+  </joint>
+
+  <!-- link 1 -->
+  <link name = "link1">
+    <visual>
+      <geometry>
+        <box size = "1 0.1 0.1"/>
+      </geometry>
+      <material name = "blue"/>
+      <origin rpy = "0 0 0" xyz = "0.5 0 0"/>
+    </visual>
+    <inertial>
+      <mass value="0.5" />
+      <origin xyz="0.425 0 0" rpy="0 0 0" />
+      v<inertia ixx="0.5" ixy="0" ixz="0" iyy="0.5" iyz="0" izz="0.5" />
+    </inertial>
+    <collision>
+      <geometry>
+        <box size = "0.1 0.1 1"/>
+      </geometry>
+      <material name = "blue"/>
+      <origin rpy = "0 0 0" xyz = "-0.925 0 0"/>
+    </collision>
+  </link>
+
+  <joint name = "link12revolute1" type="fixed">
+    <parent link = "revolute1"/>
+    <child link = "link1"/>
+    <origin xyz = "0 0 0.05"/>
+  </joint>
+
+
+  <!-- revolute 2 -->
+  <link name = "revolute2">
+    <visual>
+      <geometry>
+        <cylinder length = "0.1" radius = "0.05"/>
+      </geometry>
+      <material name = "green"/>
+      <origin xyz = "0 0 0.05"/>
+    </visual>
+    <inertial>
+      <mass value="0.5" />
+      <origin xyz="0 0 0.05" rpy="0 0 0" />
+      <inertia ixx="0.5" ixy="0" ixz="0" iyy="0.5" iyz="0" izz="0.5" />
+    </inertial>
+    <collision>
+      <geometry>
+        <cylinder length = "0.1" radius = "0.05"/>
+      </geometry>
+      <material name = "green"/>
+      <origin xyz = "0 0 0.225"/>
+    </collision>
+  </link>
+
+  <joint name = "joint2" type="revolute">
+    <parent link = "base_link"/>
+    <child link = "revolute2"/>
+    <origin xyz = "0.425 0 0.05" rpy = "0 0 0.576"/>
+    <limit effort="1000.0" lower="-3.14" upper="3.14" velocity="0.5"/>
+    <axis xyz = "0 0 1"/>
+    <dynamics damping="0.2" friction="0.1" />
+  </joint>
+
+  <!-- link 2 -->
+  <link name = "link2">
+    <visual>
+      <geometry>
+        <box size = "1 0.1 0.1"/>
+      </geometry>
+      <material name = "blue"/>
+      <origin rpy = "0 0 0" xyz = "0.5 0 0"/>
+    </visual>
+    <inertial>
+      <mass value="0.5" />
+      <origin xyz="0.425 0 0" rpy="0 0 0" />
+      v<inertia ixx="0.5" ixy="0" ixz="0" iyy="0.5" iyz="0" izz="0.5" />
+    </inertial>
+    <collision>
+      <geometry>
+        <box size = "0.1 0.1 1"/>
+      </geometry>
+      <material name = "blue"/>
+      <origin rpy = "0 0 0" xyz = "0.5 0 0"/>
+    </collision>
+  </link>
+
+  <joint name = "link22revolute2" type="fixed">
+    <parent link = "revolute2"/>
+    <child link = "link2"/>
+    <origin xyz = "0 0 0.05"/>
+  </joint>
+
+
+  <!-- revolute 3 -->
+  <link name = "revolute3">
+    <visual>
+      <geometry>
+        <cylinder length = "0.1" radius = "0.05"/>
+      </geometry>
+      <material name = "green"/>
+      <origin rpy = "0 0 0" xyz = "0 0 0"/>
+    </visual>
+    <inertial>
+      <mass value="0.5" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      v<inertia ixx="0.5" ixy="0" ixz="0" iyy="0.5" iyz="0" izz="0.5" />
+    </inertial>
+    <collision>
+      <geometry>
+        <cylinder length = "0.1" radius = "0.05"/>
+      </geometry>
+      <material name = "green"/>
+      <origin rpy = "0 0 0" xyz = "0 0 0"/>
+    </collision>
+  </link>
+
+  <joint name = "joint3" type="revolute">
+    <parent link = "link1"/>
+    <child link = "revolute3"/>
+    <origin xyz = "1 0 0"/>
+    <limit effort="1000.0" lower="-3.14" upper="3.14" velocity="0.5"/>
+    <axis xyz = "0 0 1"/>
+    <dynamics damping="0.2" friction="0.1" />
+  </joint>
+
+  <!-- link 3 -->
+  <link name = "link3">
+    <visual>
+      <geometry>
+        <box size = "1.65 0.1 0.1"/>
+      </geometry>
+      <material name = "blue"/>
+      <origin rpy = "0 0 0" xyz = "0 0 0"/>
+    </visual>
+    <inertial>
+      <mass value="0.5" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      v<inertia ixx="0.5" ixy="0" ixz="0" iyy="0.5" iyz="0" izz="0.5" />
+    </inertial>
+    <collision>
+      <geometry>
+        <box size = "1.65 0.1 0.1"/>
+      </geometry>
+      <material name = "blue"/>
+      <origin rpy = "0 0 0" xyz = "0 0 0"/>
+    </collision>
+  </link>
+
+  <joint name = "link32revolute3" type="fixed">
+    <parent link = "revolute3"/>
+    <child link = "link3"/>
+    <origin xyz = "0.825 0 0"/>
+  </joint>
+  
+  
+  <!-- revolute 4 -->
+  <link name = "revolute4">
+    <visual>
+      <geometry>
+        <cylinder length = "0.1" radius = "0.05"/>
+      </geometry>
+      <material name = "green"/>
+      <origin rpy = "0 0 0" xyz = "0 0 0"/>
+    </visual>
+    <inertial>
+      <mass value="0.5" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      v<inertia ixx="0.5" ixy="0" ixz="0" iyy="0.5" iyz="0" izz="0.5" />
+    </inertial>
+    <collision>
+      <geometry>
+        <cylinder length = "0.1" radius = "0.05"/>
+      </geometry>
+      <material name = "green"/>
+      <origin rpy = "0 0 0" xyz = "0 0 0"/>
+    </collision>
+  </link>
+
+  <joint name = "joint4" type="revolute">
+    <parent link = "link2"/>
+    <child link = "revolute4"/>
+    <origin xyz = "1 0 0"/>
+    <limit effort="1000.0" lower="-3.14" upper="3.14" velocity="0.5"/>
+    <axis xyz = "0 0 1"/>
+    <dynamics damping="0.2" friction="0.1" />
+  </joint>
+
+  <!-- link 4 -->
+  <link name = "link4">
+    <visual>
+      <geometry>
+        <box size = "1.65 0.1 0.1"/>
+      </geometry>
+      <material name = "blue"/>
+      <origin rpy = "0 0 0" xyz = "0 0 0"/>
+    </visual>
+    <inertial>
+      <mass value="0.5" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      v<inertia ixx="0.5" ixy="0" ixz="0" iyy="0.5" iyz="0" izz="0.5" />
+    </inertial>
+    <collision>
+      <geometry>
+        <box size = "1.65 0.1 0.1"/>
+      </geometry>
+      <material name = "blue"/>
+      <origin rpy = "0 0 0" xyz = "0 0 0"/>
+    </collision>
+  </link>
+
+  <joint name = "link42revolute4" type="fixed">
+    <parent link = "revolute4"/>
+    <child link = "link4"/>
+    <origin xyz = "0.825 0 0"/>
+  </joint>  
+  
+</robot>

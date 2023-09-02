@@ -1,0 +1,9 @@
+setup.py
+ethercat_msgs/__init__.py
+ethercat_msgs.egg-info/PKG-INFO
+ethercat_msgs.egg-info/SOURCES.txt
+ethercat_msgs.egg-info/dependency_links.txt
+ethercat_msgs.egg-info/top_level.txt
+ethercat_msgs/srv/__init__.py
+ethercat_msgs/srv/_get_sdo.py
+ethercat_msgs/srv/_set_sdo.py

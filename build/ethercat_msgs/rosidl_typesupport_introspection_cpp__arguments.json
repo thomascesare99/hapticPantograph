@@ -1,0 +1,21 @@
+{
+  "package_name": "ethercat_msgs",
+  "output_dir": "/home/telecom/ros2_pant_ec_ws/build/ethercat_msgs/rosidl_typesupport_introspection_cpp/ethercat_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
+  "idl_tuples": [
+    "/home/telecom/ros2_pant_ec_ws/build/ethercat_msgs/rosidl_adapter/ethercat_msgs:srv/SetSdo.idl",
+    "/home/telecom/ros2_pant_ec_ws/build/ethercat_msgs/rosidl_adapter/ethercat_msgs:srv/GetSdo.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/idl__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
+    "/home/telecom/ros2_pant_ec_ws/build/ethercat_msgs/rosidl_adapter/ethercat_msgs/srv/SetSdo.idl",
+    "/home/telecom/ros2_pant_ec_ws/build/ethercat_msgs/rosidl_adapter/ethercat_msgs/srv/GetSdo.idl"
+  ]
+}

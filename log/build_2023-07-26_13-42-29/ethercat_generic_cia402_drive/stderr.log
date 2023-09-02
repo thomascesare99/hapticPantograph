@@ -1,0 +1,15 @@
+In file included from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:47[m[K,
+                 from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-actions.h:51[m[K,
+                 from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h:59[m[K,
+                 from [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_generic_plugins/ethercat_generic_cia402_drive/test/test_generic_ec_cia402_drive.hpp:23[m[K,
+                 from [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_generic_plugins/ethercat_generic_cia402_drive/test/test_generic_ec_cia402_drive.cpp:19[m[K:
+/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h: In instantiation of ‘[01m[Ktesting::AssertionResult testing::internal::CmpHelperEQ(const char*, const char*, const T1&, const T2&) [with T1 = unsigned int; T2 = int][m[K’:
+[01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:1554:23:[m[K   required from ‘[01m[Kstatic testing::AssertionResult testing::internal::EqHelper::Compare(const char*, const char*, const T1&, const T2&) [with T1 = unsigned int; T2 = int; typename std::enable_if<((! std::is_integral<_Tp>::value) || (! std::is_pointer<_Dp>::value))>::type* <anonymous> = 0][m[K’
+[01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_generic_plugins/ethercat_generic_cia402_drive/test/test_generic_ec_cia402_drive.cpp:107:3:[m[K   required from here
+[01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:1527:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst unsigned int[m[K’ and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1527 |   if ([01;35m[Klhs == rhs[m[K) {
+      |       [01;35m[K~~~~^~~~~~[m[K
+/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h: In instantiation of ‘[01m[Ktesting::AssertionResult testing::internal::CmpHelperEQ(const char*, const char*, const T1&, const T2&) [with T1 = long unsigned int; T2 = int][m[K’:
+[01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:1554:23:[m[K   required from ‘[01m[Kstatic testing::AssertionResult testing::internal::EqHelper::Compare(const char*, const char*, const T1&, const T2&) [with T1 = long unsigned int; T2 = int; typename std::enable_if<((! std::is_integral<_Tp>::value) || (! std::is_pointer<_Dp>::value))>::type* <anonymous> = 0][m[K’
+[01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_generic_plugins/ethercat_generic_cia402_drive/test/test_generic_ec_cia402_drive.cpp:112:3:[m[K   required from here
+[01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:1527:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst long unsigned int[m[K’ and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]

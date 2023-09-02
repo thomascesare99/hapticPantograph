@@ -1,0 +1,6 @@
+In file included from [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_driver/include/ethercat_driver/ethercat_driver.hpp:32[m[K,
+                 from [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_driver/src/ethercat_driver.cpp:15[m[K:
+[01m[K/home/telecom/ros2_pant_ec_ws/install/ethercat_interface/include/ethercat_interface/ec_master.hpp:160:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kec_slave_config_state_t::operational[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  160 |     ec_slave_config_state_t config_state = {0[01;35m[K}[m[K;
+      |                                              [01;35m[K^[m[K
+[01m[K/home/telecom/ros2_pant_ec_ws/install/ethercat_interface/include/ethercat_interface/ec_master.hpp:160:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kec_slave_config_state_t::al_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]

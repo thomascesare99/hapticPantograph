@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ethercat_msgs/srv/SetSdo.srv
+// generated code does not contain a copyright notice
+
+
+module ethercat_msgs {
+  module srv {
+    struct SetSdo_Request {
+      int16 master_id;
+
+      int16 slave_position;
+
+      int16 sdo_index;
+
+      int16 sdo_subindex;
+
+      string sdo_data_type;
+
+      string sdo_value;
+    };
+    struct SetSdo_Response {
+      boolean success;
+
+      string sdo_return_message;
+    };
+  };
+};

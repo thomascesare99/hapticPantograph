@@ -1,0 +1,23 @@
+[100%] Built target ethercat_sdo_srv_server
+-- Install configuration: ""
+-- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/lib/ethercat_manager/ethercat_sdo_srv_server
+-- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/share/ethercat_manager/environment/library_path.sh
+-- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/share/ethercat_manager/environment/library_path.dsv
+-- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/share/ament_index/resource_index/package_run_dependencies/ethercat_manager
+-- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/share/ament_index/resource_index/parent_prefix_path/ethercat_manager
+-- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/share/ethercat_manager/environment/ament_prefix_path.sh
+-- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/share/ethercat_manager/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/share/ethercat_manager/environment/path.sh
+-- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/share/ethercat_manager/environment/path.dsv
+-- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/share/ethercat_manager/local_setup.bash
+-- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/share/ethercat_manager/local_setup.sh
+-- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/share/ethercat_manager/local_setup.zsh
+-- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/share/ethercat_manager/local_setup.dsv
+-- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/share/ethercat_manager/package.dsv
+-- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/share/ament_index/resource_index/packages/ethercat_manager
+-- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/share/ethercat_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/share/ethercat_manager/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/share/ethercat_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/share/ethercat_manager/cmake/ethercat_managerConfig.cmake
+-- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/share/ethercat_manager/cmake/ethercat_managerConfig-version.cmake
+-- Up-to-date: /home/telecom/ros2_pant_ec_ws/install/ethercat_manager/share/ethercat_manager/package.xml

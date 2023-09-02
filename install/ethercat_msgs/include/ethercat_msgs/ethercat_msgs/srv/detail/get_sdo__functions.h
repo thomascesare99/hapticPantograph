@@ -1,0 +1,329 @@
+// generated from rosidl_generator_c/resource/idl__functions.h.em
+// with input from ethercat_msgs:srv/GetSdo.idl
+// generated code does not contain a copyright notice
+
+#ifndef ETHERCAT_MSGS__SRV__DETAIL__GET_SDO__FUNCTIONS_H_
+#define ETHERCAT_MSGS__SRV__DETAIL__GET_SDO__FUNCTIONS_H_
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include <stdbool.h>
+#include <stdlib.h>
+
+#include "rosidl_runtime_c/visibility_control.h"
+#include "ethercat_msgs/msg/rosidl_generator_c__visibility_control.h"
+
+#include "ethercat_msgs/srv/detail/get_sdo__struct.h"
+
+/// Initialize srv/GetSdo message.
+/**
+ * If the init function is called twice for the same message without
+ * calling fini inbetween previously allocated memory will be leaked.
+ * \param[in,out] msg The previously allocated message pointer.
+ * Fields without a default value will not be initialized by this function.
+ * You might want to call memset(msg, 0, sizeof(
+ * ethercat_msgs__srv__GetSdo_Request
+ * )) before or use
+ * ethercat_msgs__srv__GetSdo_Request__create()
+ * to allocate and initialize the message.
+ * \return true if initialization was successful, otherwise false
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+bool
+ethercat_msgs__srv__GetSdo_Request__init(ethercat_msgs__srv__GetSdo_Request * msg);
+
+/// Finalize srv/GetSdo message.
+/**
+ * \param[in,out] msg The allocated message pointer.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+void
+ethercat_msgs__srv__GetSdo_Request__fini(ethercat_msgs__srv__GetSdo_Request * msg);
+
+/// Create srv/GetSdo message.
+/**
+ * It allocates the memory for the message, sets the memory to zero, and
+ * calls
+ * ethercat_msgs__srv__GetSdo_Request__init().
+ * \return The pointer to the initialized message if successful,
+ * otherwise NULL
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+ethercat_msgs__srv__GetSdo_Request *
+ethercat_msgs__srv__GetSdo_Request__create();
+
+/// Destroy srv/GetSdo message.
+/**
+ * It calls
+ * ethercat_msgs__srv__GetSdo_Request__fini()
+ * and frees the memory of the message.
+ * \param[in,out] msg The allocated message pointer.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+void
+ethercat_msgs__srv__GetSdo_Request__destroy(ethercat_msgs__srv__GetSdo_Request * msg);
+
+/// Check for srv/GetSdo message equality.
+/**
+ * \param[in] lhs The message on the left hand size of the equality operator.
+ * \param[in] rhs The message on the right hand size of the equality operator.
+ * \return true if messages are equal, otherwise false.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+bool
+ethercat_msgs__srv__GetSdo_Request__are_equal(const ethercat_msgs__srv__GetSdo_Request * lhs, const ethercat_msgs__srv__GetSdo_Request * rhs);
+
+/// Copy a srv/GetSdo message.
+/**
+ * This functions performs a deep copy, as opposed to the shallow copy that
+ * plain assignment yields.
+ *
+ * \param[in] input The source message pointer.
+ * \param[out] output The target message pointer, which must
+ *   have been initialized before calling this function.
+ * \return true if successful, or false if either pointer is null
+ *   or memory allocation fails.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+bool
+ethercat_msgs__srv__GetSdo_Request__copy(
+  const ethercat_msgs__srv__GetSdo_Request * input,
+  ethercat_msgs__srv__GetSdo_Request * output);
+
+/// Initialize array of srv/GetSdo messages.
+/**
+ * It allocates the memory for the number of elements and calls
+ * ethercat_msgs__srv__GetSdo_Request__init()
+ * for each element of the array.
+ * \param[in,out] array The allocated array pointer.
+ * \param[in] size The size / capacity of the array.
+ * \return true if initialization was successful, otherwise false
+ * If the array pointer is valid and the size is zero it is guaranteed
+ # to return true.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+bool
+ethercat_msgs__srv__GetSdo_Request__Sequence__init(ethercat_msgs__srv__GetSdo_Request__Sequence * array, size_t size);
+
+/// Finalize array of srv/GetSdo messages.
+/**
+ * It calls
+ * ethercat_msgs__srv__GetSdo_Request__fini()
+ * for each element of the array and frees the memory for the number of
+ * elements.
+ * \param[in,out] array The initialized array pointer.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+void
+ethercat_msgs__srv__GetSdo_Request__Sequence__fini(ethercat_msgs__srv__GetSdo_Request__Sequence * array);
+
+/// Create array of srv/GetSdo messages.
+/**
+ * It allocates the memory for the array and calls
+ * ethercat_msgs__srv__GetSdo_Request__Sequence__init().
+ * \param[in] size The size / capacity of the array.
+ * \return The pointer to the initialized array if successful, otherwise NULL
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+ethercat_msgs__srv__GetSdo_Request__Sequence *
+ethercat_msgs__srv__GetSdo_Request__Sequence__create(size_t size);
+
+/// Destroy array of srv/GetSdo messages.
+/**
+ * It calls
+ * ethercat_msgs__srv__GetSdo_Request__Sequence__fini()
+ * on the array,
+ * and frees the memory of the array.
+ * \param[in,out] array The initialized array pointer.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+void
+ethercat_msgs__srv__GetSdo_Request__Sequence__destroy(ethercat_msgs__srv__GetSdo_Request__Sequence * array);
+
+/// Check for srv/GetSdo message array equality.
+/**
+ * \param[in] lhs The message array on the left hand size of the equality operator.
+ * \param[in] rhs The message array on the right hand size of the equality operator.
+ * \return true if message arrays are equal in size and content, otherwise false.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+bool
+ethercat_msgs__srv__GetSdo_Request__Sequence__are_equal(const ethercat_msgs__srv__GetSdo_Request__Sequence * lhs, const ethercat_msgs__srv__GetSdo_Request__Sequence * rhs);
+
+/// Copy an array of srv/GetSdo messages.
+/**
+ * This functions performs a deep copy, as opposed to the shallow copy that
+ * plain assignment yields.
+ *
+ * \param[in] input The source array pointer.
+ * \param[out] output The target array pointer, which must
+ *   have been initialized before calling this function.
+ * \return true if successful, or false if either pointer
+ *   is null or memory allocation fails.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+bool
+ethercat_msgs__srv__GetSdo_Request__Sequence__copy(
+  const ethercat_msgs__srv__GetSdo_Request__Sequence * input,
+  ethercat_msgs__srv__GetSdo_Request__Sequence * output);
+
+/// Initialize srv/GetSdo message.
+/**
+ * If the init function is called twice for the same message without
+ * calling fini inbetween previously allocated memory will be leaked.
+ * \param[in,out] msg The previously allocated message pointer.
+ * Fields without a default value will not be initialized by this function.
+ * You might want to call memset(msg, 0, sizeof(
+ * ethercat_msgs__srv__GetSdo_Response
+ * )) before or use
+ * ethercat_msgs__srv__GetSdo_Response__create()
+ * to allocate and initialize the message.
+ * \return true if initialization was successful, otherwise false
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+bool
+ethercat_msgs__srv__GetSdo_Response__init(ethercat_msgs__srv__GetSdo_Response * msg);
+
+/// Finalize srv/GetSdo message.
+/**
+ * \param[in,out] msg The allocated message pointer.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+void
+ethercat_msgs__srv__GetSdo_Response__fini(ethercat_msgs__srv__GetSdo_Response * msg);
+
+/// Create srv/GetSdo message.
+/**
+ * It allocates the memory for the message, sets the memory to zero, and
+ * calls
+ * ethercat_msgs__srv__GetSdo_Response__init().
+ * \return The pointer to the initialized message if successful,
+ * otherwise NULL
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+ethercat_msgs__srv__GetSdo_Response *
+ethercat_msgs__srv__GetSdo_Response__create();
+
+/// Destroy srv/GetSdo message.
+/**
+ * It calls
+ * ethercat_msgs__srv__GetSdo_Response__fini()
+ * and frees the memory of the message.
+ * \param[in,out] msg The allocated message pointer.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+void
+ethercat_msgs__srv__GetSdo_Response__destroy(ethercat_msgs__srv__GetSdo_Response * msg);
+
+/// Check for srv/GetSdo message equality.
+/**
+ * \param[in] lhs The message on the left hand size of the equality operator.
+ * \param[in] rhs The message on the right hand size of the equality operator.
+ * \return true if messages are equal, otherwise false.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+bool
+ethercat_msgs__srv__GetSdo_Response__are_equal(const ethercat_msgs__srv__GetSdo_Response * lhs, const ethercat_msgs__srv__GetSdo_Response * rhs);
+
+/// Copy a srv/GetSdo message.
+/**
+ * This functions performs a deep copy, as opposed to the shallow copy that
+ * plain assignment yields.
+ *
+ * \param[in] input The source message pointer.
+ * \param[out] output The target message pointer, which must
+ *   have been initialized before calling this function.
+ * \return true if successful, or false if either pointer is null
+ *   or memory allocation fails.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+bool
+ethercat_msgs__srv__GetSdo_Response__copy(
+  const ethercat_msgs__srv__GetSdo_Response * input,
+  ethercat_msgs__srv__GetSdo_Response * output);
+
+/// Initialize array of srv/GetSdo messages.
+/**
+ * It allocates the memory for the number of elements and calls
+ * ethercat_msgs__srv__GetSdo_Response__init()
+ * for each element of the array.
+ * \param[in,out] array The allocated array pointer.
+ * \param[in] size The size / capacity of the array.
+ * \return true if initialization was successful, otherwise false
+ * If the array pointer is valid and the size is zero it is guaranteed
+ # to return true.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+bool
+ethercat_msgs__srv__GetSdo_Response__Sequence__init(ethercat_msgs__srv__GetSdo_Response__Sequence * array, size_t size);
+
+/// Finalize array of srv/GetSdo messages.
+/**
+ * It calls
+ * ethercat_msgs__srv__GetSdo_Response__fini()
+ * for each element of the array and frees the memory for the number of
+ * elements.
+ * \param[in,out] array The initialized array pointer.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+void
+ethercat_msgs__srv__GetSdo_Response__Sequence__fini(ethercat_msgs__srv__GetSdo_Response__Sequence * array);
+
+/// Create array of srv/GetSdo messages.
+/**
+ * It allocates the memory for the array and calls
+ * ethercat_msgs__srv__GetSdo_Response__Sequence__init().
+ * \param[in] size The size / capacity of the array.
+ * \return The pointer to the initialized array if successful, otherwise NULL
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+ethercat_msgs__srv__GetSdo_Response__Sequence *
+ethercat_msgs__srv__GetSdo_Response__Sequence__create(size_t size);
+
+/// Destroy array of srv/GetSdo messages.
+/**
+ * It calls
+ * ethercat_msgs__srv__GetSdo_Response__Sequence__fini()
+ * on the array,
+ * and frees the memory of the array.
+ * \param[in,out] array The initialized array pointer.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+void
+ethercat_msgs__srv__GetSdo_Response__Sequence__destroy(ethercat_msgs__srv__GetSdo_Response__Sequence * array);
+
+/// Check for srv/GetSdo message array equality.
+/**
+ * \param[in] lhs The message array on the left hand size of the equality operator.
+ * \param[in] rhs The message array on the right hand size of the equality operator.
+ * \return true if message arrays are equal in size and content, otherwise false.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+bool
+ethercat_msgs__srv__GetSdo_Response__Sequence__are_equal(const ethercat_msgs__srv__GetSdo_Response__Sequence * lhs, const ethercat_msgs__srv__GetSdo_Response__Sequence * rhs);
+
+/// Copy an array of srv/GetSdo messages.
+/**
+ * This functions performs a deep copy, as opposed to the shallow copy that
+ * plain assignment yields.
+ *
+ * \param[in] input The source array pointer.
+ * \param[out] output The target array pointer, which must
+ *   have been initialized before calling this function.
+ * \return true if successful, or false if either pointer
+ *   is null or memory allocation fails.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_ethercat_msgs
+bool
+ethercat_msgs__srv__GetSdo_Response__Sequence__copy(
+  const ethercat_msgs__srv__GetSdo_Response__Sequence * input,
+  ethercat_msgs__srv__GetSdo_Response__Sequence * output);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // ETHERCAT_MSGS__SRV__DETAIL__GET_SDO__FUNCTIONS_H_

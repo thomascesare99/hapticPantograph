@@ -1,0 +1,137 @@
+[0.024s] Invoking command in '/home/telecom/ros2_pant_ec_ws/build/ethercat_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface -DCMAKE_INSTALL_PREFIX=/home/telecom/ros2_pant_ec_ws/install/ethercat_interface
+[0.059s] -- The C compiler identification is GNU 11.3.0
+[0.093s] -- The CXX compiler identification is GNU 11.3.0
+[0.097s] -- Detecting C compiler ABI info
+[0.134s] -- Detecting C compiler ABI info - done
+[0.140s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.141s] -- Detecting C compile features
+[0.141s] -- Detecting C compile features - done
+[0.143s] -- Detecting CXX compiler ABI info
+[0.185s] -- Detecting CXX compiler ABI info - done
+[0.189s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.190s] -- Detecting CXX compile features
+[0.190s] -- Detecting CXX compile features - done
+[0.191s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.298s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.353s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.360s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.390s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.393s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.397s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.406s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.418s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.463s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.465s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.522s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.539s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.569s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.575s] -- Looking for pthread.h
+[0.613s] -- Looking for pthread.h - found
+[0.613s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.652s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.653s] -- Found Threads: TRUE  
+[0.751s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.752s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[0.801s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[0.803s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.807s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.808s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.808s] -- Configured cppcheck include dirs: /home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/include
+[0.808s] -- Configured cppcheck exclude dirs and/or files: 
+[0.808s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.808s] -- Configured cpplint exclude dirs and/or files: 
+[0.809s] -- Added test 'lint_cmake' to check CMake code style
+[0.810s] -- Added test 'uncrustify' to check C / C++ code style
+[0.810s] -- Configured uncrustify additional arguments: 
+[0.811s] -- Added test 'xmllint' to check XML markup files
+[0.812s] -- Configuring done
+[0.820s] -- Generating done
+[0.821s] -- Build files have been written to: /home/telecom/ros2_pant_ec_ws/build/ethercat_interface
+[0.827s] Invoked command in '/home/telecom/ros2_pant_ec_ws/build/ethercat_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface -DCMAKE_INSTALL_PREFIX=/home/telecom/ros2_pant_ec_ws/install/ethercat_interface
+[0.828s] Invoking command in '/home/telecom/ros2_pant_ec_ws/build/ethercat_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telecom/ros2_pant_ec_ws/build/ethercat_interface -- -j20 -l20
+[0.854s] [ 33%] [32mBuilding CXX object CMakeFiles/ethercat_interface.dir/src/ec_master.cpp.o[0m
+[0.857s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[0.857s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[0.858s] [ 44%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.287s] In file included from [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:15[m[K:
+[1.287s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/include/ethercat_interface/ec_master.hpp:160:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kec_slave_config_state_t::operational[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.287s]   160 |     ec_slave_config_state_t config_state = {0[01;35m[K}[m[K;
+[1.287s]       |                                              [01;35m[K^[m[K
+[1.288s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/include/ethercat_interface/ec_master.hpp:160:46:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kec_slave_config_state_t::al_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.291s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:[m[K In constructor ‘[01m[Kethercat_interface::EcMaster::DomainInfo::DomainInfo(ec_master_t*)[m[K’:
+[1.291s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:43:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kec_pdo_entry_reg_t::position[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.291s]    43 |   const ec_pdo_entry_reg_t empty = {0[01;35m[K}[m[K;
+[1.291s]       |                                      [01;35m[K^[m[K
+[1.291s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:43:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kec_pdo_entry_reg_t::vendor_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.291s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:43:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kec_pdo_entry_reg_t::product_code[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.291s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:43:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kec_pdo_entry_reg_t::index[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.291s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:43:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kec_pdo_entry_reg_t::subindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.291s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:43:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kec_pdo_entry_reg_t::offset[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.291s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:43:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kec_pdo_entry_reg_t::bit_position[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.293s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:[m[K In destructor ‘[01m[Kvirtual ethercat_interface::EcMaster::~EcMaster()[m[K’:
+[1.293s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:69:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kslave[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.293s]    69 |   for (SlaveInfo & [01;35m[Kslave[m[K : slave_info_) {
+[1.293s]       |                    [01;35m[K^~~~~[m[K
+[1.302s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:[m[K In member function ‘[01m[Kvoid ethercat_interface::EcMaster::registerPDOInDomain(uint16_t, uint16_t, std::vector<unsigned int>&, ethercat_interface::EcMaster::DomainInfo*, ethercat_interface::EcSlave*)[m[K’:
+[1.302s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:209:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kec_pdo_entry_reg_t::position[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.302s]   209 |   ec_pdo_entry_reg_t empty = {0[01;35m[K}[m[K;
+[1.302s]       |                                [01;35m[K^[m[K
+[1.302s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:209:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kec_pdo_entry_reg_t::vendor_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.302s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:209:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kec_pdo_entry_reg_t::product_code[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.303s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:209:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kec_pdo_entry_reg_t::index[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.303s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:209:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kec_pdo_entry_reg_t::subindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.303s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:209:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kec_pdo_entry_reg_t::offset[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.303s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:209:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kec_pdo_entry_reg_t::bit_position[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.305s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:[m[K In static member function ‘[01m[Kstatic void ethercat_interface::EcMaster::setThreadRealTime()[m[K’:
+[1.305s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:423:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdummy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[1.305s]   423 |   unsigned char [01;35m[Kdummy[m[K[MAX_SAFE_STACK];
+[1.305s]       |                 [01;35m[K^~~~~[m[K
+[1.443s] In file included from [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/include/ethercat_interface/ec_slave.hpp:26[m[K,
+[1.443s]                  from [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/include/ethercat_interface/ec_master.hpp:25[m[K,
+[1.443s]                  from [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp:15[m[K:
+[1.443s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/include/ethercat_interface/ec_sdo_manager.hpp:[m[K In member function ‘[01m[Ksize_t ethercat_interface::SdoConfigEntry::type2bytes(std::string)[m[K’:
+[1.443s] [01m[K/home/telecom/ros2_pant_ec_ws/src/ethercat_driver_ros2/ethercat_interface/include/ethercat_interface/ec_sdo_manager.hpp:113:3:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[1.443s]   113 |   [01;35m[K}[m[K
+[1.443s]       |   [01;35m[K^[m[K
+[1.607s] [ 55%] [32m[1mLinking CXX shared library libethercat_interface.so[0m
+[1.627s] [ 66%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[1.655s] [ 66%] Built target gmock_main
+[1.680s] [ 66%] Built target ethercat_interface
+[2.905s] [ 77%] [32m[1mLinking CXX static library libgmock.a[0m
+[2.943s] [ 77%] Built target gmock
+[2.955s] [ 88%] [32mBuilding CXX object CMakeFiles/test_ec_pdo_channel_manager.dir/test/test_ec_pdo_channel_manager.cpp.o[0m
+[3.882s] [100%] [32m[1mLinking CXX executable test_ec_pdo_channel_manager[0m
+[3.975s] [100%] Built target test_ec_pdo_channel_manager
+[3.985s] Invoked command in '/home/telecom/ros2_pant_ec_ws/build/ethercat_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telecom/ros2_pant_ec_ws/build/ethercat_interface -- -j20 -l20
+[4.005s] Invoking command in '/home/telecom/ros2_pant_ec_ws/build/ethercat_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telecom/ros2_pant_ec_ws/build/ethercat_interface
+[4.009s] -- Install configuration: ""
+[4.009s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/lib/libethercat_interface.so
+[4.009s] -- Set runtime path of "/home/telecom/ros2_pant_ec_ws/install/ethercat_interface/lib/libethercat_interface.so" to "/usr/local/etherlab/lib:/opt/ros/humble/lib"
+[4.009s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/include
+[4.009s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/include/ethercat_interface
+[4.009s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/include/ethercat_interface/ec_master.hpp
+[4.010s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/include/ethercat_interface/ec_sdo_manager.hpp
+[4.010s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/include/ethercat_interface/ec_pdo_channel_manager.hpp
+[4.010s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/include/ethercat_interface/ec_slave.hpp
+[4.010s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/include/ethercat_interface/ec_sync_manager.hpp
+[4.010s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ethercat_interface/environment/library_path.sh
+[4.010s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ethercat_interface/environment/library_path.dsv
+[4.010s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ament_index/resource_index/package_run_dependencies/ethercat_interface
+[4.010s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ament_index/resource_index/parent_prefix_path/ethercat_interface
+[4.010s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ethercat_interface/environment/ament_prefix_path.sh
+[4.010s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ethercat_interface/environment/ament_prefix_path.dsv
+[4.010s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ethercat_interface/environment/path.sh
+[4.010s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ethercat_interface/environment/path.dsv
+[4.010s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ethercat_interface/local_setup.bash
+[4.010s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ethercat_interface/local_setup.sh
+[4.010s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ethercat_interface/local_setup.zsh
+[4.011s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ethercat_interface/local_setup.dsv
+[4.011s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ethercat_interface/package.dsv
+[4.011s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ament_index/resource_index/packages/ethercat_interface
+[4.011s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ethercat_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.011s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ethercat_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[4.011s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ethercat_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.011s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ethercat_interface/cmake/ethercat_interfaceConfig.cmake
+[4.011s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ethercat_interface/cmake/ethercat_interfaceConfig-version.cmake
+[4.011s] -- Installing: /home/telecom/ros2_pant_ec_ws/install/ethercat_interface/share/ethercat_interface/package.xml
+[4.013s] Invoked command in '/home/telecom/ros2_pant_ec_ws/build/ethercat_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telecom/ros2_pant_ec_ws/build/ethercat_interface
